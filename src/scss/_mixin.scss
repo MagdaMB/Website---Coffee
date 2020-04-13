@@ -1,0 +1,13 @@
+@mixin btn-primary {
+    background: $bg-button;
+    border-radius: $border-radius;
+    box-sizing: border-box;
+    color: $color-text-primary;
+    display: block;
+    height: 40px;
+    line-height: 19px;
+    max-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+}

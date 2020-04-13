@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,C,CACI,Q,CACA,S,CAGJ,M,CACI,U,CACA,c,CAFJ,Q,CAKQ,S","file":"style.min.css","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n}\n\nheader {\n    color: blue;\n    font-size: 25px;\n\n    p {\n        color: red;\n    }\n}"]}
