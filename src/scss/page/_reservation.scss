@@ -1,0 +1,153 @@
+.main--reservation {
+  .main--reservation__box {
+    padding-bottom: 40px;
+
+    h3 {
+      color: $color-text-menu;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 26px;
+      padding: 30px 0;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+      padding-bottom: 25px;
+    }
+
+    .book--table {
+      color: $defaultColor;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 400px;
+
+      label {
+        display: block;
+        padding-bottom: 10px;
+      }
+
+      .select--number {
+        width: 200px;
+        height: 40px;
+        text-align: center;
+      }
+
+      .select--DateTime {
+        display: block;
+        height: 40px;
+        max-height: 40px;
+        box-sizing: border-box;
+        width: 200px;
+      }
+
+      .btn--reservation {
+        background: $bg-button;
+        border: none;
+        color: $defaultColor;
+        display: block;
+        height: 40px;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 15px;
+        width: 200px;
+      }
+
+      @media all and (min-width: 768px) {
+        flex-direction: row;
+        height: 250px;
+
+        .btn--reservation {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .main--reservation__slider {
+    position: relative;
+
+    img {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    h3 {
+      color: $color-text-menu;
+      text-transform: uppercase;
+      padding: 0 10px;
+    }
+
+    h3:last-child {
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: $color-text-primary;
+      line-height: 20px;
+      text-align: justify;
+      padding: 10px;
+    }
+
+    .slider-title {
+      font-size: 22px;
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translate(-50%, 0);
+
+      @media all and (min-width: 768px) {
+        font-size: 36px;
+      }
+    }
+
+    .slider--block {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background: $bg-button;
+      width: 77%;
+      max-width: 700px;
+
+      @media all and (min-width: 768px) {
+        bottom: 15%;
+      }
+    }
+
+    .slider--block__dots {
+      display: flex;
+      list-style-type: none;
+      width: 100px;
+      justify-content: space-around;
+      margin: 0 auto;
+      position: relative;
+      top: -0.5em;
+
+      span {
+        border-radius: 50%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        opacity: 0.3;
+        transition: opacity 2s;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      @media all and (min-width: 768px) {
+        top: -1.5em;
+      }
+    }
+  }
+}

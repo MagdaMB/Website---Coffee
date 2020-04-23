@@ -26,11 +26,8 @@ const server = function(cb) {
     server: {
       baseDir: "./dist"
     },
-    notify: false, //reszta opcji z dokumentacji browsersync
-    //host: "192.168.0.24",
-    //port: 3000,
+    notify: false,
     open: true
-    //browser: "google chrome" //https://stackoverflow.com/questions/24686585/gulp-browser-sync-open-chrome-only
   });
 
   cb();
@@ -38,7 +35,7 @@ const server = function(cb) {
 
 const html = function(cb) {
   return gulp
-    .src("src/html/index.html")
+    .src("src/html/**/*.html")
     .pipe(
       fileinclude({
         prefix: "@@",

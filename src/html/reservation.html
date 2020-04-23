@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CoffeeReservation</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      @@include('./inc/_header.html') @@include('./inc/_main_reservation.html')
+      @@include('./inc/_footer.html')
+    </div>
+    <script src="../js/scripts.js"></script>
+    <script>
+      let slideNum = 0;
+      changeSlide();
+
+      function changeSlide() {
+        let slides = document.querySelectorAll(".slider--block__item");
+        let dots = document.querySelectorAll(".dot");
+
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        slideNum++;
+        if (slideNum > slides.length) slideNum = 1;
+
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace("active", "");
+        }
+        slides[slideNum - 1].style.display = "block";
+        dots[slideNum - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>

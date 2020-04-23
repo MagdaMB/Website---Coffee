@@ -1,0 +1,70 @@
+<div class="main--reservation">
+    <div class="main--reservation__box">
+        <h3>Book here</h3>
+        <img src="./images/line2.png" alt="line">
+        <div class="book--table">
+            <div>
+                <label for="select--number">People</label>
+                <select class="select--number" id="select--number">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div>
+                <label for="select--DateTime">Date and Time</label>
+                <input class="select--DateTime" id="select--DateTime" type="datetime-local" />
+            </div>
+            <button class="btn--reservation" type="submit">Book table</button>
+        </div>
+    </div>
+
+    <div class="main--reservation__slider">
+        <img src="./images/image3.png" alt="coffee" class="reservation--img">
+        <h3 class="slider-title">Testimonials</h3>
+        <div class="slider--block">
+            <div class="slider--block__item slide1">
+                <p>
+                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+                </p>
+
+                <h3>
+                    Helly Hansen
+                </h3>
+            </div>
+            <div class="slider--block__item slide2">
+                <p>
+                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur. Ut cillum culpa aliquip et
+                    adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+                </p>
+
+                <h3>
+                    Mary Blige
+                </h3>
+            </div>
+            <div class="slider--block__item slide3">
+                <p>
+                    Sint sit dolore sit adipisicing velit. Aliqua aliquip enim eiusmod qui amet dolor nisi tempor anim.
+                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+                </p>
+
+                <h3>
+                    Jack Smith
+                </h3>
+            </div>
+        </div>
+
+        <div class="slider--block__dots">
+            <span class="dot dot1" onclick="changeSlide(1)"></span>
+            <span class="dot dot2" onclick="changeSlide(2)"></span>
+            <span class="dot dot3" onclick="changeSlide(3)"></span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CoffeeReservation</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+    <a href="index.html" class="header--logo"><img src="./images/logo.png" alt="logo_coffee_shop"></a>
+
+    <nav class="header--nav">
+        <ul class="header--list">
+            <li class="header--list__item"><a href="index.html" title="Go HomePage">Home</a></li>
+            <li class="header--list__item"><a href="">Our Story</a></li>
+            <li class="header--list__item"><a href="">Menu</a></li>
+            <li class="header--list__item"><a href="reservation.html" title="Reservation">Reservations</a></li>
+            <li class="header--list__item"><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header> <div class="main--reservation">
+    <div class="main--reservation__box">
+        <h3>Book here</h3>
+        <img src="./images/line2.png" alt="line">
+        <div class="book--table">
+            <div>
+                <label for="select--number">People</label>
+                <select class="select--number" id="select--number">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div>
+                <label for="select--DateTime">Date and Time</label>
+                <input class="select--DateTime" id="select--DateTime" type="datetime-local" />
+            </div>
+            <button class="btn--reservation" type="submit">Book table</button>
+        </div>
+    </div>
+
+    <div class="main--reservation__slider">
+        <img src="./images/image3.png" alt="coffee" class="reservation--img">
+        <h3 class="slider-title">Testimonials</h3>
+        <div class="slider--block">
+            <div class="slider--block__item slide1">
+                <p>
+                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+                </p>
+
+                <h3>
+                    Helly Hansen
+                </h3>
+            </div>
+            <div class="slider--block__item slide2">
+                <p>
+                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur. Ut cillum culpa aliquip et
+                    adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+                </p>
+
+                <h3>
+                    Mary Blige
+                </h3>
+            </div>
+            <div class="slider--block__item slide3">
+                <p>
+                    Sint sit dolore sit adipisicing velit. Aliqua aliquip enim eiusmod qui amet dolor nisi tempor anim.
+                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+                </p>
+
+                <h3>
+                    Jack Smith
+                </h3>
+            </div>
+        </div>
+
+        <div class="slider--block__dots">
+            <span class="dot dot1" onclick="changeSlide(1)"></span>
+            <span class="dot dot2" onclick="changeSlide(2)"></span>
+            <span class="dot dot3" onclick="changeSlide(3)"></span>
+        </div>
+    </div>
+</div>
+      <footer class="footer">
+    <div class="footer--block logo">
+        <img src="./images/logo.png" alt="coffee logo">
+        <h3>We craft our coffee with love and passion</h3>
+        <p>Velit velit non duis eiusmod esse cillum aliqua ex.</p>
+    </div>
+    <div class="footer--block menu">
+        <h3>Explore</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </div>
+    <div class="footer--block address">
+        <h3>
+            Find us
+        </h3>
+        <ul>
+            <li>Sunset Drive West, NY 25458</li>
+            <li>+4 645789647</li>
+            <li>test@gmail.test</li>
+        </ul>
+    </div>
+</footer>
+<a href="http://www.freepik.com" class="footer--link">Designed by Freepik</a>
+    </div>
+    <script src="../js/scripts.js"></script>
+    <script>
+      let slideNum = 0;
+      changeSlide();
+
+      function changeSlide() {
+        let slides = document.querySelectorAll(".slider--block__item");
+        let dots = document.querySelectorAll(".dot");
+
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        slideNum++;
+        if (slideNum > slides.length) slideNum = 1;
+
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace("active", "");
+        }
+        slides[slideNum - 1].style.display = "block";
+        dots[slideNum - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
