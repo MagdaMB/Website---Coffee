@@ -58,7 +58,7 @@
 
       @media all and (min-width: 768px) {
         flex-direction: row;
-        height: 250px;
+        height: 150px;
 
         .btn--reservation {
           margin-top: 20px;
@@ -137,6 +137,46 @@
 
       @media all and (min-width: 768px) {
         top: -1.5em;
+      }
+    }
+  }
+
+  .main--reservation__blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $defaultColor;
+    text-align: center;
+    padding: 40px 0 60px;
+
+    h3 {
+      color: $color-text-menu;
+      padding: 10px 0;
+      font-size: 26px;
+    }
+
+    p {
+      line-height: 22px;
+      padding: 0 20px;
+      font-size: 14px;
+    }
+
+    img {
+      max-width: 300px;
+    }
+
+    .article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+
+      p {
+        padding: 0 40px;
       }
     }
   }
