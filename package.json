@@ -24,11 +24,13 @@
     "gulp-csso": "^4.0.1",
     "gulp-file-include": "^2.1.1",
     "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.1",
     "gulp-util": "^3.0.8",
+    "jshint": "^2.11.0",
     "run-sequence": "^2.2.1",
     "webpack": "^4.42.1"
   },

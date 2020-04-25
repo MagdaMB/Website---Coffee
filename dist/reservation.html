@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CoffeeReservation</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CoffeeReservation</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
     <a href="index.html" class="header--logo"><img src="./images/logo.png" alt="logo_coffee_shop"></a>
 
     <nav class="header--nav">
@@ -23,76 +24,101 @@
         </ul>
     </nav>
 </header> <div class="main--reservation">
-    <div class="main--reservation__box">
-        <h3>Book here</h3>
-        <img src="./images/line2.png" alt="line">
-        <div class="book--table">
-            <div>
-                <label for="select--number">People</label>
-                <select class="select--number" id="select--number">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
-            </div>
-            <div>
-                <label for="select--DateTime">Date and Time</label>
-                <input class="select--DateTime" id="select--DateTime" type="datetime-local" />
-            </div>
-            <button class="btn--reservation" type="submit">Book table</button>
-        </div>
+  <div class="main--reservation__box">
+    <h3>Book here</h3>
+    <img src="./images/line2.png" alt="line">
+    <div class="book--table">
+      <div>
+        <label for="select--number">People</label>
+        <select class="select--number" id="select--number">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </div>
+      <div>
+        <label for="select--DateTime">Date and Time</label>
+        <input class="select--DateTime" id="select--DateTime" type="datetime-local" />
+      </div>
+      <button class="btn--reservation" type="submit">Book table</button>
     </div>
+  </div>
 
-    <div class="main--reservation__slider">
-        <img src="./images/image3.png" alt="coffee" class="reservation--img">
-        <h3 class="slider-title">Testimonials</h3>
-        <div class="slider--block">
+  <div class="main--reservation__slider">
+    <img src="./images/image3.png" alt="coffee" class="reservation--img">
+    <h3 class="slider-title">Testimonials</h3>
+
+    <div class="glide slider--block">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
             <div class="slider--block__item slide1">
-                <p>
-                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
-                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
-                </p>
+              <p>
+                Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur.
+                Consectetur dolore
+                ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+              </p>
 
-                <h3>
-                    Helly Hansen
-                </h3>
+              <h3>
+                Helly Hansen
+              </h3>
             </div>
+          </li>
+          <li class="glide__slide">
             <div class="slider--block__item slide2">
-                <p>
-                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
-                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur. Ut cillum culpa aliquip et
-                    adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
-                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
-                </p>
+              <p>
+                Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur.
+                Consectetur dolore
+                ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur. Ut cillum culpa
+                aliquip et
+                adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
+                ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+              </p>
 
-                <h3>
-                    Mary Blige
-                </h3>
+              <h3>
+                Mary Blige
+              </h3>
             </div>
+          </li>
+          <li class="glide__slide">
             <div class="slider--block__item slide3">
-                <p>
-                    Sint sit dolore sit adipisicing velit. Aliqua aliquip enim eiusmod qui amet dolor nisi tempor anim.
-                    Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur. Consectetur dolore
-                    ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
-                </p>
+              <p>
+                Sint sit dolore sit adipisicing velit. Aliqua aliquip enim eiusmod qui amet dolor nisi
+                tempor anim.
+                Ut cillum culpa aliquip et adipisicing consectetur dolor velit aute consectetur.
+                Consectetur dolore
+                ad fugiat reprehenderit. Aute id est nostrud ipsum laborum consectetur.
+              </p>
 
-                <h3>
-                    Jack Smith
-                </h3>
+              <h3>
+                Jack Smith
+              </h3>
             </div>
-        </div>
+          </li>
+        </ul>
+      </div>
 
-        <div class="slider--block__dots">
-            <span class="dot dot1" onclick="changeSlide(1)"></span>
-            <span class="dot dot2" onclick="changeSlide(2)"></span>
-            <span class="dot dot3" onclick="changeSlide(3)"></span>
-        </div>
+      <div class="glide__bullets slider--block__dots" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="=0"></button>
+        <button class="glide__bullet" data-glide-dir="=1"></button>
+        <button class="glide__bullet" data-glide-dir="=2"></button>
+      </div>
     </div>
+  </div>
+
+  <div class="main--reservation__blog">
+    <div>
+      <img>
+      <h3></h3>
+      <p>Culpa laborum non in tempor veniam non dolore aute. Non excepteur do sint in fugiat et irure Lorem sunt sunt
+        anim. Adipisicing Lorem minim Lorem cupidatat excepteur cupidatat Lorem aliqua voluptate anim.</p>
+    </div>
+  </div>
 </div>
-      <footer class="footer">
+    <footer class="footer">
     <div class="footer--block logo">
         <img src="./images/logo.png" alt="coffee logo">
         <h3>We craft our coffee with love and passion</h3>
@@ -121,29 +147,9 @@
     </div>
 </footer>
 <a href="http://www.freepik.com" class="footer--link">Designed by Freepik</a>
-    </div>
-    <script src="../js/scripts.js"></script>
-    <script>
-      let slideNum = 0;
-      changeSlide();
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="./js/script.min.js"></script>
+</body>
 
-      function changeSlide() {
-        let slides = document.querySelectorAll(".slider--block__item");
-        let dots = document.querySelectorAll(".dot");
-
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-
-        slideNum++;
-        if (slideNum > slides.length) slideNum = 1;
-
-        for (let i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace("active", "");
-        }
-        slides[slideNum - 1].style.display = "block";
-        dots[slideNum - 1].className += " active";
-      }
-    </script>
-  </body>
 </html>
