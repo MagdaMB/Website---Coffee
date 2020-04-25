@@ -78,7 +78,7 @@
     }
 
     h3 {
-      color: $color-text-menu;
+      color: $color-black;
       text-transform: uppercase;
       padding: 0 10px;
     }
@@ -96,6 +96,7 @@
     }
 
     .slider-title {
+      color: $color-text-menu;
       font-size: 22px;
       position: absolute;
       top: 20px;
@@ -126,23 +127,12 @@
       list-style-type: none;
       width: 100px;
       justify-content: space-around;
-      margin: 0 auto;
       position: relative;
       top: -0.5em;
 
-      span {
-        border-radius: 50%;
-        display: block;
-        width: 20px;
-        height: 20px;
-        background: #fff;
-        opacity: 0.3;
-        transition: opacity 2s;
-        cursor: pointer;
-
-        &:hover {
-          opacity: 0.7;
-        }
+      button {
+        width: 15px;
+        height: 15px;
       }
 
       @media all and (min-width: 768px) {
