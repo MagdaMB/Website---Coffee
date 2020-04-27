@@ -1,0 +1,510 @@
+Skrypt uruchomiony 2020-04-25 19:58:38+0200
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp script
+[[90m19:58:54[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m19:58:54[39m] Starting '[36mscript[39m'...
+[[90m19:58:54[39m] Finished '[36mscript[39m' after [35m121 ms[39m
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp script
+[[90m19:59:13[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m19:59:13[39m] Starting '[36mscript[39m'...
+[[90m19:59:14[39m] Finished '[36mscript[39m' after [35m96 ms[39m
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ [K]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gti push
+
+Command 'gti' not found, did you mean:
+
+  command 'gtg' from deb gtg
+  command 'ghi' from deb ghi
+  command 'bti' from deb bti
+  command 'gtv' from deb smpeg-gtv
+  command 'gri' from deb gri
+  command 'gmi' from deb gmailieer
+  command 'ti' from deb ticgit
+  command 'gtf' from deb xserver-xorg-core
+  command 'gli' from deb ruby-gli
+  command 'gt5' from deb gt5
+  command 'gt' from deb genometools
+  command 'git' from deb git
+  command 'gsi' from deb gambc
+
+Try: sudo apt install <deb name>
+
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gti push[1P push[1P pushi pusht push[C
+Username for 'https://github.com': MagdaMB
+Password for 'https://MagdaMB@github.com': 
+Counting objects: 22, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   4% (1/22)   Writing objects:   9% (2/22)   Writing objects:  13% (3/22)   Writing objects:  18% (4/22)   Writing objects:  22% (5/22)   Writing objects:  27% (6/22)   Writing objects:  31% (7/22)   Writing objects:  36% (8/22)   Writing objects:  40% (9/22)   Writing objects:  45% (10/22)   Writing objects:  50% (11/22)   Writing objects:  59% (13/22)   Writing objects:  63% (14/22)   Writing objects:  68% (15/22)   Writing objects:  72% (16/22)   Writing objects:  77% (17/22)   Writing objects:  81% (18/22)   Writing objects:  86% (19/22)   Writing objects:  90% (20/22)   Writing objects:  95% (21/22)   Writing objects: 100% (22/22)   Writing objects: 100% (22/22), 153.43 KiB | 9.59 MiB/s, done.
+Total 22 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)[Kremote: Resolving deltas:  10% (1/10)[Kremote: Resolving deltas:  20% (2/10)[Kremote: Resolving deltas:  30% (3/10)[Kremote: Resolving deltas:  40% (4/10)[Kremote: Resolving deltas:  50% (5/10)[Kremote: Resolving deltas:  70% (7/10)[Kremote: Resolving deltas:  80% (8/10)[Kremote: Resolving deltas:  90% (9/10)[Kremote: Resolving deltas: 100% (10/10)[Kremote: Resolving deltas: 100% (10/10), completed with 9 local objects.[K
+remote: 
+remote: GitHub found 1 vulnerability on MagdaMB/Website---Coffee's default branch (1 critical). To find out more, visit:[K
+remote:      https://github.com/MagdaMB/Website---Coffee/network/alerts[K
+remote: 
+To https://github.com/MagdaMB/Website---Coffee.git
+   a31a083..a28fb57  master -> master
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ [K]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp script
+[[90m13:23:22[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m13:23:22[39m] Starting '[36mscript[39m'...
+[[90m13:23:22[39m] Finished '[36mscript[39m' after [35m111 ms[39m
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp
+[[90m13:23:45[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m13:23:45[39m] Starting '[36mdefault[39m'...
+[[90m13:23:45[39m] Starting '[36mhtml[39m'...
+[[90m13:23:45[39m] Finished '[36mhtml[39m' after [35m74 ms[39m
+[[90m13:23:45[39m] Starting '[36mcss[39m'...
+[[90m13:23:45[39m] Finished '[36mcss[39m' after [35m304 ms[39m
+[[90m13:23:45[39m] Starting '[36mserver[39m'...
+[[90m13:23:45[39m] Finished '[36mserver[39m' after [35m16 ms[39m
+[[90m13:23:45[39m] Starting '[36mwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -------------------------------------[39m
+       Local: [35mhttp://localhost:3002[39m
+    External: [35mhttp://192.168.18.4:3002[39m
+[90m -------------------------------------[39m
+          UI: [35mhttp://localhost:3003[39m
+ UI External: [35mhttp://localhost:3003[39m
+[90m -------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35m./dist[39m
+[[90m13:25:38[39m] Starting '[36mhtml[39m'...
+[[90m13:25:38[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m13:25:38[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:25:38[39m] Finished '[36mhtmlReload[39m' after [35m1.18 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:26:05[39m] Starting '[36mhtml[39m'...
+[[90m13:26:05[39m] '[36mhtml[39m' [31merrored after[39m [35m15 ms[39m
+[[90m13:26:05[39m] [31mError[39m in plugin "[36mgulp-file-include[39m"
+Message:
+    ENOENT: no such file or directory, open '/home/magda/Pulpit/Projekt/First/src/html/inc/_main_menu.html'
+Details:
+    domainEmitter: [object Object]
+    domain: [object Object]
+    domainThrown: false
+
+[[90m13:26:25[39m] Starting '[36mhtml[39m'...
+[[90m13:26:25[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m13:26:25[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:26:25[39m] Finished '[36mhtmlReload[39m' after [35m648 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:26:50[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:26:50[39m] Finished '[36mcss[39m' after [35m255 ms[39m
+[[90m13:27:13[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:27:13[39m] Finished '[36mcss[39m' after [35m188 ms[39m
+[[90m13:28:07[39m] Starting '[36mhtml[39m'...
+[[90m13:28:07[39m] Finished '[36mhtml[39m' after [35m20 ms[39m
+[[90m13:28:07[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:28:07[39m] Finished '[36mhtmlReload[39m' after [35m282 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:28:13[39m] Starting '[36mhtml[39m'...
+[[90m13:28:13[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m13:28:13[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:28:13[39m] Finished '[36mhtmlReload[39m' after [35m187 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:28:41[39m] Starting '[36mhtml[39m'...
+[[90m13:28:41[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m13:28:41[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:28:41[39m] Finished '[36mhtmlReload[39m' after [35m248 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:29:09[39m] Starting '[36mhtml[39m'...
+[[90m13:29:09[39m] Finished '[36mhtml[39m' after [35m30 ms[39m
+[[90m13:29:09[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:29:09[39m] Finished '[36mhtmlReload[39m' after [35m310 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:31:06[39m] Starting '[36mhtml[39m'...
+[[90m13:31:06[39m] Finished '[36mhtml[39m' after [35m29 ms[39m
+[[90m13:31:06[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:31:06[39m] Finished '[36mhtmlReload[39m' after [35m491 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:31:48[39m] Starting '[36mhtml[39m'...
+[[90m13:31:48[39m] Finished '[36mhtml[39m' after [35m29 ms[39m
+[[90m13:31:48[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:31:48[39m] Finished '[36mhtmlReload[39m' after [35m215 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:32:33[39m] Starting '[36mhtml[39m'...
+[[90m13:32:33[39m] Finished '[36mhtml[39m' after [35m27 ms[39m
+[[90m13:32:33[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:32:33[39m] Finished '[36mhtmlReload[39m' after [35m238 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:32:45[39m] Starting '[36mhtml[39m'...
+[[90m13:32:46[39m] Finished '[36mhtml[39m' after [35m20 ms[39m
+[[90m13:32:46[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:32:46[39m] Finished '[36mhtmlReload[39m' after [35m263 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:33:37[39m] Starting '[36mhtml[39m'...
+[[90m13:33:37[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m13:33:37[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:33:37[39m] Finished '[36mhtmlReload[39m' after [35m268 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:34:04[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:34:04[39m] Finished '[36mcss[39m' after [35m186 ms[39m
+^C
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp
+[[90m13:34:50[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m13:34:50[39m] Starting '[36mdefault[39m'...
+[[90m13:34:50[39m] Starting '[36mhtml[39m'...
+[[90m13:34:50[39m] Finished '[36mhtml[39m' after [35m70 ms[39m
+[[90m13:34:50[39m] Starting '[36mcss[39m'...
+[[90m13:34:51[39m] Finished '[36mcss[39m' after [35m301 ms[39m
+[[90m13:34:51[39m] Starting '[36mserver[39m'...
+[[90m13:34:51[39m] Finished '[36mserver[39m' after [35m17 ms[39m
+[[90m13:34:51[39m] Starting '[36mwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.18.4:3000[39m
+[90m -------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m -------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35m./dist[39m
+^C
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gi[Kulp sr[Kcript
+[[90m13:35:42[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m13:35:42[39m] Starting '[36mscript[39m'...
+[[90m13:35:43[39m] Finished '[36mscript[39m' after [35m125 ms[39m
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp script[K
+[[90m13:35:47[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m13:35:47[39m] Starting '[36mdefault[39m'...
+[[90m13:35:47[39m] Starting '[36mhtml[39m'...
+[[90m13:35:47[39m] Finished '[36mhtml[39m' after [35m60 ms[39m
+[[90m13:35:47[39m] Starting '[36mcss[39m'...
+[[90m13:35:48[39m] Finished '[36mcss[39m' after [35m390 ms[39m
+[[90m13:35:48[39m] Starting '[36mserver[39m'...
+[[90m13:35:48[39m] Finished '[36mserver[39m' after [35m19 ms[39m
+[[90m13:35:48[39m] Starting '[36mwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.18.4:3000[39m
+[90m -------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m -------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35m./dist[39m
+[[90m13:36:22[39m] Starting '[36mhtml[39m'...
+[[90m13:36:22[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m13:36:22[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:36:22[39m] Finished '[36mhtmlReload[39m' after [35m1.16 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:36:57[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:36:57[39m] Finished '[36mcss[39m' after [35m197 ms[39m
+[[90m13:37:02[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:37:02[39m] Finished '[36mcss[39m' after [35m178 ms[39m
+[[90m13:37:09[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:37:09[39m] Finished '[36mcss[39m' after [35m139 ms[39m
+[[90m13:37:14[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:37:14[39m] Finished '[36mcss[39m' after [35m122 ms[39m
+[[90m13:37:52[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:37:52[39m] Finished '[36mcss[39m' after [35m119 ms[39m
+[[90m13:38:04[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:38:04[39m] Finished '[36mcss[39m' after [35m146 ms[39m
+[[90m13:38:36[39m] Starting '[36mhtml[39m'...
+[[90m13:38:36[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m13:38:36[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:38:36[39m] Finished '[36mhtmlReload[39m' after [35m314 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:38:54[39m] Starting '[36mhtml[39m'...
+[[90m13:38:54[39m] Finished '[36mhtml[39m' after [35m25 ms[39m
+[[90m13:38:54[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:38:54[39m] Finished '[36mhtmlReload[39m' after [35m319 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:39:00[39m] Starting '[36mhtml[39m'...
+[[90m13:39:00[39m] Finished '[36mhtml[39m' after [35m25 ms[39m
+[[90m13:39:00[39m] Starting '[36mhtmlReload[39m'...
+[[90m13:39:00[39m] Finished '[36mhtmlReload[39m' after [35m226 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m13:39:05[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m13:39:05[39m] Finished '[36mcss[39m' after [35m130 ms[39m
+[[90m17:21:16[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:21:16[39m] Finished '[36mcss[39m' after [35m176 ms[39m
+[[90m17:21:26[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:21:26[39m] Finished '[36mcss[39m' after [35m199 ms[39m
+[[90m17:22:17[39m] Starting '[36mhtml[39m'...
+[[90m17:22:17[39m] Finished '[36mhtml[39m' after [35m20 ms[39m
+[[90m17:22:17[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:22:17[39m] Finished '[36mhtmlReload[39m' after [35m220 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:22:30[39m] Starting '[36mhtml[39m'...
+[[90m17:22:30[39m] Finished '[36mhtml[39m' after [35m25 ms[39m
+[[90m17:22:30[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:22:30[39m] Finished '[36mhtmlReload[39m' after [35m218 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:22:39[39m] Starting '[36mhtml[39m'...
+[[90m17:22:39[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m17:22:39[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:22:39[39m] Finished '[36mhtmlReload[39m' after [35m252 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:22:51[39m] Starting '[36mhtml[39m'...
+[[90m17:22:51[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m17:22:51[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:22:51[39m] Finished '[36mhtmlReload[39m' after [35m201 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:23:07[39m] Starting '[36mhtml[39m'...
+[[90m17:23:07[39m] Finished '[36mhtml[39m' after [35m20 ms[39m
+[[90m17:23:07[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:23:07[39m] Finished '[36mhtmlReload[39m' after [35m267 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:23:19[39m] Starting '[36mhtml[39m'...
+[[90m17:23:19[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m17:23:19[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:23:19[39m] Finished '[36mhtmlReload[39m' after [35m215 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:23:40[39m] Starting '[36mhtml[39m'...
+[[90m17:23:40[39m] Finished '[36mhtml[39m' after [35m27 ms[39m
+[[90m17:23:40[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:23:40[39m] Finished '[36mhtmlReload[39m' after [35m324 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:23:52[39m] Starting '[36mhtml[39m'...
+[[90m17:23:52[39m] Finished '[36mhtml[39m' after [35m25 ms[39m
+[[90m17:23:52[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:23:52[39m] Finished '[36mhtmlReload[39m' after [35m283 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:24:09[39m] Starting '[36mhtml[39m'...
+[[90m17:24:09[39m] Finished '[36mhtml[39m' after [35m26 ms[39m
+[[90m17:24:09[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:24:09[39m] Finished '[36mhtmlReload[39m' after [35m238 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:24:28[39m] Starting '[36mhtml[39m'...
+[[90m17:24:28[39m] Finished '[36mhtml[39m' after [35m24 ms[39m
+[[90m17:24:28[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:24:28[39m] Finished '[36mhtmlReload[39m' after [35m250 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:24:44[39m] Starting '[36mhtml[39m'...
+[[90m17:24:44[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m17:24:44[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:24:44[39m] Finished '[36mhtmlReload[39m' after [35m288 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:25:15[39m] Starting '[36mhtml[39m'...
+[[90m17:25:15[39m] Finished '[36mhtml[39m' after [35m21 ms[39m
+[[90m17:25:15[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:25:15[39m] Finished '[36mhtmlReload[39m' after [35m225 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:25:39[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:25:39[39m] Finished '[36mcss[39m' after [35m154 ms[39m
+[[90m17:25:59[39m] Starting '[36mcss[39m'...
+[31mError[39m in plugin "[36msass[39m"
+Message:
+    [4msrc/scss/page/_menu.scss[24m
+Error: Undefined variable: "$colorDefault".
+        on line 14 of src/scss/page/_menu.scss
+        from line 9 of src/scss/style.scss
+>>         color: $colorDefault;
+
+   ---------------^
+
+[[90m17:25:59[39m] Finished '[36mcss[39m' after [35m25 ms[39m
+[[90m17:26:06[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:26:06[39m] Finished '[36mcss[39m' after [35m167 ms[39m
+[[90m17:26:17[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:26:17[39m] Finished '[36mcss[39m' after [35m138 ms[39m
+[[90m17:26:22[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:26:22[39m] Finished '[36mcss[39m' after [35m161 ms[39m
+[[90m17:26:31[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:26:31[39m] Finished '[36mcss[39m' after [35m122 ms[39m
+[[90m17:26:45[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:26:45[39m] Finished '[36mcss[39m' after [35m122 ms[39m
+[[90m17:27:01[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:27:01[39m] Finished '[36mcss[39m' after [35m106 ms[39m
+[[90m17:27:06[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:27:06[39m] Finished '[36mcss[39m' after [35m145 ms[39m
+[[90m17:27:43[39m] Starting '[36mhtml[39m'...
+[[90m17:27:43[39m] Finished '[36mhtml[39m' after [35m26 ms[39m
+[[90m17:27:43[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:27:43[39m] Finished '[36mhtmlReload[39m' after [35m200 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:27:59[39m] Starting '[36mhtml[39m'...
+[[90m17:27:59[39m] Finished '[36mhtml[39m' after [35m22 ms[39m
+[[90m17:27:59[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:27:59[39m] Finished '[36mhtmlReload[39m' after [35m202 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:28:09[39m] Starting '[36mhtml[39m'...
+[[90m17:28:09[39m] Finished '[36mhtml[39m' after [35m25 ms[39m
+[[90m17:28:09[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:28:09[39m] Finished '[36mhtmlReload[39m' after [35m250 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:28:22[39m] Starting '[36mhtml[39m'...
+[[90m17:28:22[39m] Finished '[36mhtml[39m' after [35m29 ms[39m
+[[90m17:28:22[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:28:22[39m] Finished '[36mhtmlReload[39m' after [35m234 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:28:32[39m] Starting '[36mhtml[39m'...
+[[90m17:28:32[39m] Finished '[36mhtml[39m' after [35m22 ms[39m
+[[90m17:28:32[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:28:32[39m] Finished '[36mhtmlReload[39m' after [35m242 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:28:41[39m] Starting '[36mhtml[39m'...
+[[90m17:28:41[39m] Finished '[36mhtml[39m' after [35m27 ms[39m
+[[90m17:28:41[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:28:41[39m] Finished '[36mhtmlReload[39m' after [35m279 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:29:06[39m] Starting '[36mhtml[39m'...
+[[90m17:29:06[39m] Finished '[36mhtml[39m' after [35m28 ms[39m
+[[90m17:29:06[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:29:06[39m] Finished '[36mhtmlReload[39m' after [35m230 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:29:21[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:29:21[39m] Finished '[36mcss[39m' after [35m127 ms[39m
+[[90m17:29:33[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:29:33[39m] Finished '[36mcss[39m' after [35m157 ms[39m
+[[90m17:29:47[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:29:47[39m] Finished '[36mcss[39m' after [35m162 ms[39m
+[[90m17:30:15[39m] Starting '[36mhtml[39m'...
+[[90m17:30:15[39m] Finished '[36mhtml[39m' after [35m25 ms[39m
+[[90m17:30:15[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:30:15[39m] Finished '[36mhtmlReload[39m' after [35m202 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:30:20[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:30:20[39m] Finished '[36mcss[39m' after [35m218 ms[39m
+[[90m17:30:33[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:30:33[39m] Finished '[36mcss[39m' after [35m175 ms[39m
+[[90m17:30:45[39m] Starting '[36mhtml[39m'...
+[[90m17:30:45[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m17:30:45[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:30:45[39m] Finished '[36mhtmlReload[39m' after [35m575 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:31:25[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:31:25[39m] Finished '[36mcss[39m' after [35m131 ms[39m
+[[90m17:31:41[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:31:41[39m] Finished '[36mcss[39m' after [35m133 ms[39m
+[[90m17:31:51[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:31:51[39m] Finished '[36mcss[39m' after [35m145 ms[39m
+[[90m17:32:02[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:32:03[39m] Finished '[36mcss[39m' after [35m132 ms[39m
+[[90m17:32:31[39m] Starting '[36mhtml[39m'...
+[[90m17:32:31[39m] Finished '[36mhtml[39m' after [35m22 ms[39m
+[[90m17:32:31[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:32:31[39m] Finished '[36mhtmlReload[39m' after [35m280 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:32:59[39m] Starting '[36mhtml[39m'...
+[[90m17:32:59[39m] Finished '[36mhtml[39m' after [35m15 ms[39m
+[[90m17:32:59[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:32:59[39m] Finished '[36mhtmlReload[39m' after [35m233 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:33:09[39m] Starting '[36mhtml[39m'...
+[[90m17:33:09[39m] Finished '[36mhtml[39m' after [35m35 ms[39m
+[[90m17:33:09[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:33:09[39m] Finished '[36mhtmlReload[39m' after [35m292 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:33:19[39m] Starting '[36mhtml[39m'...
+[[90m17:33:19[39m] Finished '[36mhtml[39m' after [35m14 ms[39m
+[[90m17:33:19[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:33:19[39m] Finished '[36mhtmlReload[39m' after [35m232 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:33:37[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:33:37[39m] Finished '[36mcss[39m' after [35m118 ms[39m
+[[90m17:34:02[39m] Starting '[36mhtml[39m'...
+[[90m17:34:02[39m] Finished '[36mhtml[39m' after [35m21 ms[39m
+[[90m17:34:02[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:34:02[39m] Finished '[36mhtmlReload[39m' after [35m271 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:34:37[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:34:37[39m] Finished '[36mcss[39m' after [35m144 ms[39m
+[[90m17:35:04[39m] Starting '[36mhtml[39m'...
+[[90m17:35:04[39m] Finished '[36mhtml[39m' after [35m23 ms[39m
+[[90m17:35:04[39m] Starting '[36mhtmlReload[39m'...
+[[90m17:35:04[39m] Finished '[36mhtmlReload[39m' after [35m212 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m17:39:00[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m17:39:00[39m] Finished '[36mcss[39m' after [35m126 ms[39m
+^C
+]0;magda@magda-X555LJ: ~/Pulpit/Projekt/First[01;32mmagda@magda-X555LJ[00m:[01;34m~/Pulpit/Projekt/First[00m$ gulp
+[[90m09:46:13[39m] Using gulpfile [35m~/Pulpit/Projekt/First/gulpfile.js[39m
+[[90m09:46:13[39m] Starting '[36mdefault[39m'...
+[[90m09:46:13[39m] Starting '[36mhtml[39m'...
+[[90m09:46:13[39m] Finished '[36mhtml[39m' after [35m142 ms[39m
+[[90m09:46:13[39m] Starting '[36mcss[39m'...
+[[90m09:46:13[39m] Finished '[36mcss[39m' after [35m409 ms[39m
+[[90m09:46:13[39m] Starting '[36mserver[39m'...
+[[90m09:46:13[39m] Finished '[36mserver[39m' after [35m17 ms[39m
+[[90m09:46:13[39m] Starting '[36mwatch[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+[90m -------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.18.4:3000[39m
+[90m -------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://localhost:3001[39m
+[90m -------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35m./dist[39m
+[[90m10:36:25[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:36:25[39m] Finished '[36mcss[39m' after [35m340 ms[39m
+[[90m10:36:38[39m] Starting '[36mhtml[39m'...
+[[90m10:36:38[39m] Finished '[36mhtml[39m' after [35m30 ms[39m
+[[90m10:36:38[39m] Starting '[36mhtmlReload[39m'...
+[[90m10:36:38[39m] Finished '[36mhtmlReload[39m' after [35m637 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m10:36:50[39m] Starting '[36mhtml[39m'...
+[[90m10:36:50[39m] Finished '[36mhtml[39m' after [35m21 ms[39m
+[[90m10:36:50[39m] Starting '[36mhtmlReload[39m'...
+[[90m10:36:50[39m] Finished '[36mhtmlReload[39m' after [35m577 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m10:37:10[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:37:10[39m] Finished '[36mcss[39m' after [35m178 ms[39m
+[[90m10:37:27[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:37:28[39m] Finished '[36mcss[39m' after [35m181 ms[39m
+[[90m10:38:11[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:38:11[39m] Finished '[36mcss[39m' after [35m288 ms[39m
+[[90m10:38:18[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:38:18[39m] Finished '[36mcss[39m' after [35m221 ms[39m
+[[90m10:48:03[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:48:03[39m] Finished '[36mcss[39m' after [35m212 ms[39m
+[[90m10:48:18[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:48:18[39m] Finished '[36mcss[39m' after [35m153 ms[39m
+[[90m10:48:26[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:48:26[39m] Finished '[36mcss[39m' after [35m206 ms[39m
+[[90m10:49:01[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:49:02[39m] Finished '[36mcss[39m' after [35m127 ms[39m
+[[90m10:51:55[39m] Starting '[36mhtml[39m'...
+[[90m10:51:55[39m] Finished '[36mhtml[39m' after [35m33 ms[39m
+[[90m10:51:55[39m] Starting '[36mhtmlReload[39m'...
+[[90m10:51:55[39m] Finished '[36mhtmlReload[39m' after [35m217 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m10:53:07[39m] Starting '[36mhtml[39m'...
+[[90m10:53:07[39m] Finished '[36mhtml[39m' after [35m27 ms[39m
+[[90m10:53:07[39m] Starting '[36mhtmlReload[39m'...
+[[90m10:53:07[39m] Finished '[36mhtmlReload[39m' after [35m301 μs[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m10:53:18[39m] Starting '[36mcss[39m'...
+[[34mBrowsersync[39m] [36m1 file changed[39m ([35mstyle.css[39m)
+[[90m10:53:18[39m] Finished '[36mcss[39m' after [35m179 ms[39m
+[[90m10:53:29[39m] S

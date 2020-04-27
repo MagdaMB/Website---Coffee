@@ -1,0 +1,59 @@
+.menu {
+    background: url("./images/bg_section3.png") no-repeat center;
+    text-align: center;
+    padding-bottom: 40px;
+
+    img {
+        width: 100%;
+        max-width: 768px;
+    }
+
+    h3 {
+        color: $color-text-menu;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 20px 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        font-weight: bold;
+        color: $defaultColor;
+        padding: 8px 0;
+    }
+
+    .menu--coffee,
+    .menu--tea {
+        display: flex;
+        width: 100%;
+
+        .menu--coffee__type,
+        .menu--tea__type {
+            width: 50%;
+        }
+
+        .menu--coffee__price,
+        .menu--tea__price {
+            width: 50%;
+        }
+    }
+
+    @media all and (min-width: 1120px) {
+        display: flex;
+        justify-content: space-around;
+        padding: 60px 0 100px;
+
+        img {
+            max-width: 560px;
+        }
+
+        .menu--block {
+            max-width: 560px;
+            width: 100%;
+        }
+    }
+}
