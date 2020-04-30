@@ -1,0 +1,34 @@
+.contact {
+    p {
+        color: $defaultColor;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    h3 {
+        color: $color-text-subtitle;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 26px;
+        padding: 20px;
+    }
+
+    .opening--information {
+        display: flex;
+
+        .days {
+            flex-basis: 50%;
+        }
+
+        .hours {
+            flex-basis: 50%;
+
+        }
+
+        @media all and (min-width: 768px) {
+            width: 50%;
+            margin: 0 auto;
+
+        }
+    }
+}
